@@ -1,2 +1,5 @@
+from django.http import HttpResponse
+
+
 def homePageView(request):
-    pass
+    return HttpResponse("Welcome to the homepage!")
